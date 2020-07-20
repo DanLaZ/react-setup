@@ -8,6 +8,7 @@ function Counter() {
         <div>
             <h1> {count} </h1>
             <h1 onClick={()=> setCount(count + 1)}> Add</h1>
+            <h1 onClick={() => setCount(count - 1)}> Subtract</h1>
         </div>
     );
 
