@@ -5,7 +5,10 @@ function Counter() {
     const [count, setCount] = useState(0);
 
     return(
-        <h1></h1>
+        <div>
+            <h1> {count} </h1>
+            <h1 onClick={()=> setCount(count + 1)}> Add</h1>
+        </div>
     );
 
 };
